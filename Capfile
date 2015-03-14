@@ -5,11 +5,15 @@ require 'capistrano/setup'
 require 'capistrano/deploy'
 
 require 'capistrano/rbenv'
+
+# Asset precompile and migrations
+#load 'deploy'
+#load 'deploy/assets'
+require 'capistrano/rails/assets'
+require 'capistrano/rails/migrations'
+
 set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, '2.2.0'
-
-# Asset precompile
-# load 'deploy/assets'
 
 # Includes tasks from other gems included in your Gemfile
 #
