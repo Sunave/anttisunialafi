@@ -1,0 +1,27 @@
+<%= form_for @post, html: { class:"form-horizontal"} do |f| %>
+  <fieldset>
+    <% if @post.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+        <ul>
+          <% @post.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <legend>Leave a message</legend>
+    <%= f.check_box :public, { checked: true } %> Add to shoutbox (otherwise it's private)<br>
+
+    <div class="input-group input-group-lg">
+      <%= f.text_area :message, class:"form-control", placeholder: "Your message" %>
+      <span class="input-group-sm">
+        <%= f.text_field :name, class:"form-control", placeholder: "Name" %>
+        <%= f.text_field :email, class:"form-control", placeholder: "Email (not shown to anyone but me)" %>
+      </span>
+    </div>
+    <%= f.submit "Send", class: "btn btn-primary btn-lg" %>
+  </fieldset>
+<% end %>
