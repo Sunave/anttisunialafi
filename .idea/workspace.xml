@@ -26,29 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="225">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="720">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.css.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="660">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.23706897" vertical-offset="0" max-vertical-offset="696">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -154,12 +131,12 @@
         <option value="$PROJECT_DIR$/app/views/statics/statics.html.erb" />
         <option value="$PROJECT_DIR$/app/views/statics/static.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
       </list>
     </option>
   </component>
@@ -474,7 +451,7 @@
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="giti&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/.gitignore&#10;read&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/README.md&#10;capfi&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;depl&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/deploy.rb&#10;asset&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/initializers/assets.rb&#10;secre&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/secrets.yml&#10;ca&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;rout&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/routes.rb&#10;ge&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Gemfile&#10;cap&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;da&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/database.yml&#10;gemf&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Gemfile&#10;capf&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;readme&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/README.md&#10;gem&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/app/assets/stylesheets/application.css.scss&#10;giti&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/.gitignore&#10;read&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/README.md&#10;capfi&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;depl&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/deploy.rb&#10;asset&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/initializers/assets.rb&#10;secre&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/secrets.yml&#10;ca&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;rout&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/routes.rb&#10;ge&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Gemfile&#10;cap&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;da&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/config/database.yml&#10;gemf&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Gemfile&#10;capf&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Capfile&#10;readme&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/README.md&#10;gem&#9;FILE&#9;file:///Users/antti/rails_projects/anttisuniala/Gemfile" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -903,26 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20833333" vertical-offset="0" max-vertical-offset="720">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="660">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -959,9 +920,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="720">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.19565217" vertical-offset="0" max-vertical-offset="690">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
@@ -970,10 +939,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="720">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23706897" vertical-offset="0" max-vertical-offset="696">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
