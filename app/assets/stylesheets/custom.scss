@@ -1,7 +1,14 @@
-// Put here any custom css
+// Put any custom css here
 
 #profile-image {
   width:300px;
   border-radius:30%;
   overflow:hidden;
+}
+
+a {
+  color: #cbcbcb;
+  &:hover {
+    color: #fff;
+  }
 }

@@ -12,15 +12,25 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h2 class="panel-title">Keywords and info</h2>
-    </div>
+  </div>
   <div class="panel-body">
-    <p>I'm a computer science and usability enthusiast. My interests include <br>
+    <p>I'm a computer science and usability enthusiast. My interests include</p>
+    <h4>
       <% @tags.each do |tag| %>
-        <span class="label label-info">#<%= tag %></span>
+        <span class="label label-default label"><i class="fa fa-slack"></i> <%= tag %></span>
       <% end %>
-    </p>
+    </h4>
+
+    <p>I live in Helsinki, Finland, where I'm studying Computer Science at University of Helsinki.</p>
+
+    <h3>Contact:</h3>
+    <div class="list-group-item"><i class="fa fa-github fa-lg fa-fw"></i> Check my Github projects at <strong><a href="http://github.com/Sunave" target="_blank">github.com/Sunave</a></strong></div>
+    <div class="list-group-item"><i class="fa fa-envelope fa-lg fa-fw"></i> Contact by email <strong>my first name</strong> @ <strong>anttisuniala.fi</strong></div>
+    <div class="list-group-item"><i class="fa fa-comments fa-lg fa-fw"></i> In IRC you can reach me via nick <strong>sunave</strong> at <strong>IRCnet</strong></div>
+    <div class="list-group-item"><i class="fa fa-comment fa-lg fa-fw"></i> Or leave a comment below!</div>
+
   </div>
-  </div>
+</div>
 
 
 <div class="panel panel-default">
@@ -28,17 +38,15 @@
     <h3 class="panel-title">Posts by others</h3>
   </div>
   <div class="panel-body">
-  <div class="list-group list-">
-  <% @posts.each do |post| %>
-    <p>
-      <h4 class="list-group-item-heading"><%= post.name %>:</h4>
-      <div class="list-group-item"><%= post.message %></div>
-      </p>
-  <% end %>
-  </div>
+    <div class="list-group">
+      <% @posts.each do |post| %>
+        <h4 class="list-group-item-heading"><%= post.name %>:</h4>
+        <div class="list-group-item"><%= post.message %></div>
+      <% end %>
+    </div>
 
-  <%= render 'form' %>
-</div>
+    <%= render 'form' %>
+  </div>
 </div>
 
 

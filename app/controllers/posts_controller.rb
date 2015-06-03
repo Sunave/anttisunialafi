@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   def index
     @posts = Post.publics.reverse
     @post = Post.new
-    @tags = ['computer science', 'ruby on rails', 'bootstrap', 'photoshop', 'photography', 'usability', 'great products']
+    @tags = ['computer science', 'javascript', 'ruby on rails', 'bootstrap', 'photoshop', 'photography', 'usability', 'great products']
   end
 
   # GET /posts/1
